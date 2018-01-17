@@ -1,271 +1,151 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b11" majorVersion="8" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="0" schemaVersion="1000"><StyleDefinitions/><Networks/><PersistenceProviderPackages/><Mashups><Mashup aspect.isResponsive="false" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-11-18T19:21:22.847+01:00" name="MyHomeMash" projectName="" rows="0.0" tags="FoundationQuickstart:Home Application"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ParameterDefinitions/><Things><Thing>MyHouse</Thing></Things><ThingShapes/><ThingTemplates/><mashupContent><![CDATA[{
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b11" majorVersion="8" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="0" schemaVersion="1000"><StyleDefinitions/><Networks/><PersistenceProviderPackages/><Mashups><Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2018-01-03T21:55:46.205+01:00" name="SmartOfficeView1" projectName="" rows="0.0" tags="SmartTag:Tag1"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ParameterDefinitions/><Things/><ThingShapes/><ThingTemplates><ThingTemplate>SmartOfficeTemplate</ThingTemplate></ThingTemplates><mashupContent><![CDATA[{
   "RunTimePermissions" : { },
   "UI" : {
     "Widgets" : [ {
-      "Widgets" : [ ],
+      "Widgets" : [ {
+        "Widgets" : [ ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Left Sidebar",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-3"
+        }
+      }, {
+        "Widgets" : [ {
+          "Widgets" : [ ],
+          "Properties" : {
+            "Left" : 180,
+            "ListBackgroundStyle" : "DefaultListBackgroundStyle",
+            "ShowDataLoading" : true,
+            "Label" : "",
+            "WidthOfDropdownView" : 110,
+            "Alignment" : "left",
+            "DropdownStyle" : "DefaultDropdownStyle",
+            "Visible" : true,
+            "DisplayName" : "dhxlist-5",
+            "Height" : 170,
+            "ListItemSelectedStyle" : "DefaultListItemSelectedStyle",
+            "Width" : 110,
+            "DropdownButtonStyle" : "DefaultDropdownButtonStyle",
+            "ClearIfNoSelection" : false,
+            "ListItemHoverStyle" : "DefaultListItemHoverStyle",
+            "ListLabelStyle" : "DefaultWidgetLabelStyle",
+            "MultiSelect" : false,
+            "__supportsLabel" : true,
+            "ResponsiveLayout" : true,
+            "LabelAlignment" : "left",
+            "Z-index" : 10,
+            "HeightOfDropdownView" : 170,
+            "View" : "list",
+            "__TypeDisplayName" : "List",
+            "RowHeight" : 28,
+            "ListItemStyle" : "DefaultListItemStyle",
+            "NumberOfItemsInDropdownView" : 6,
+            "Area" : "UI",
+            "Type" : "dhxlist",
+            "Top" : 15,
+            "DropdownSelectedStyle" : "DefaultDropdownSelectedStyle",
+            "Id" : "dhxlist-5",
+            "ListItemAlternateStyle" : "DefaultListItemAlternateStyle",
+            "AutoSelectFirstRow" : false
+          }
+        } ],
+        "Properties" : {
+          "MinHeight" : 0,
+          "TabWidth" : 36,
+          "BGImageRepeat" : "no-repeat",
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ExpandCollapseTabLocation" : "outside",
+          "TabExpandStyle" : "DefaultTabExpandStyle",
+          "Visible" : true,
+          "DisplayName" : "Column 1",
+          "Style" : "DefaultContainerStyle",
+          "BGImageSize" : "auto",
+          "Overlay" : false,
+          "Expanded" : true,
+          "TabCollapseStyle" : "DefaultTabCollapseStyle",
+          "OverlayIsTransparent" : false,
+          "ResponsiveLayout" : true,
+          "Z-index" : 10,
+          "TabOffset" : 0,
+          "MinWidth" : 0,
+          "__TypeDisplayName" : "Container",
+          "TabLocation" : "center",
+          "Area" : "UI",
+          "Type" : "container",
+          "AnimateExpandCollapse" : true,
+          "TabHeight" : 36,
+          "Id" : "container-4"
+        }
+      } ],
       "Properties" : {
-        "Intervals" : 10,
-        "LabelDisplayMode" : "inside",
-        "Legend" : "Watts",
-        "GaugeBorder" : 20,
-        "TickStyle" : "DefaultGaugeTickStyle",
-        "Left" : 80,
+        "Left" : 200,
+        "IncludeSpacingInFixedAreas" : false,
         "ShowDataLoading" : true,
-        "Aperture" : 270,
-        "ValueDigits" : 3,
-        "LegendDisplayMode" : "bottom",
-        "ToolTipField" : "",
-        "ValueStyle" : "DefaultGaugeValueStyle",
-        "CenterStyle" : "DefaultGaugeCenterStyle",
-        "MinorTickLength" : 4,
-        "FormatNeedle" : true,
-        "MinValue" : 0,
+        "HeaderHeight" : 0,
+        "PctRow4" : 0,
+        "PctRow3" : 0,
+        "PctRow2" : 50,
+        "FooterHeight" : 0,
+        "PctRow1" : 50,
+        "PctRow8" : 0,
+        "PctRow7" : 0,
+        "PctRow6" : 0,
+        "PctRow5" : 0,
+        "LeftSidebar" : true,
+        "RightSidebar" : false,
+        "PctColumn5" : 1,
         "Visible" : true,
-        "DisplayName" : "gauge-1",
-        "IntervalsPerLabel" : 2,
-        "Height" : 200,
-        "LabelDecimals" : 0,
-        "ValueDecimals" : 0,
-        "LegendStyle" : "DefaultGaugeLegendStyle",
-        "Width" : 200,
-        "GaugeStyle" : "DefaultGaugeStyle",
-        "NeedleStyle" : "DefaultGaugeNeedleStyle",
-        "RingWidth" : 10,
-        "ResponsiveLayout" : false,
-        "GaugeBorderStyle" : "DefaultGaugeBorderStyle",
+        "DisplayName" : "layout-2",
+        "PctColumn6" : 1,
+        "PctColumn3" : 1,
+        "PrintWidth" : 650,
+        "PctColumn4" : 1,
+        "PctColumn1" : 100,
+        "PctColumn2" : 0,
+        "PrintMarginTopBottom" : 0.5,
+        "Rows" : 0,
+        "RightSidebarWidth" : 0,
+        "PrintMarginLeftRight" : 0.5,
+        "PctColumn7" : 1,
+        "PctColumn8" : 1,
+        "ResponsiveLayout" : true,
+        "Columns" : 1,
         "Z-index" : 10,
-        "LabelStyle" : "DefaultGaugeLabelStyle",
-        "MaxValue" : 100,
-        "__TypeDisplayName" : "Gauge",
-        "TickLength" : 8,
+        "Spacing" : 2,
+        "Orientation" : "horizontal",
+        "__TypeDisplayName" : "Layout",
         "Area" : "UI",
-        "Type" : "gauge",
-        "GaugeFaceStyle" : "DefaultGaugeFaceStyle",
-        "Top" : 55,
-        "ReferenceAngle" : 225,
-        "ValueDisplayMode" : "none",
-        "MinorTicks" : 4,
-        "CenterDiameter" : 20,
-        "Id" : "gauge-1",
-        "NeedleDiameter" : 10,
-        "LabelDigits" : 3
-      }
-    }, {
-      "Widgets" : [ ],
-      "Properties" : {
-        "YAxisLabels" : 2,
-        "Left" : 305,
-        "AxisMaximum16" : 100,
-        "ChartStyle" : "DefaultChartStyle",
-        "SelectedItemStyle" : "DefaultChartSelectionStyle",
-        "AxisMaximum12" : 100,
-        "AxisMaximum13" : 100,
-        "AxisMaximum14" : 100,
-        "AxisMaximum15" : 100,
-        "AxisMaximum2" : 100,
-        "AxisMaximum1" : 100,
-        "AxisMaximum6" : 100,
-        "SecondaryYAxisMaximum" : 100,
-        "AxisMaximum5" : 100,
-        "AxisMaximum4" : 100,
-        "AxisMaximum3" : 100,
-        "AxisMaximum9" : 100,
-        "AxisMaximum8" : 100,
-        "AxisMaximum7" : 100,
-        "ShowYAxisLabels" : true,
-        "Z-index" : 10,
-        "XAxisLabels" : 2,
-        "YAxisMaximum" : 100,
-        "MarkerSize" : 3,
-        "YAxisMinorTicks" : 1,
-        "SecondaryYAxisZeroscale" : false,
-        "XAxisZeroscale" : false,
-        "AllowSelection" : true,
-        "AxisMinimum16" : 0,
-        "AxisMinimum15" : 0,
-        "AxisMinimum14" : 0,
-        "XAxisMinorTicks" : 1,
-        "YAxisAutoscale" : true,
-        "AxisMinimum13" : 0,
-        "AxisMinimum12" : 0,
-        "AxisMinimum11" : 0,
-        "AxisMinimum10" : 0,
-        "XAxisField" : "timestamp",
-        "XAxisStyle" : "DefaultChartAxisStyle",
-        "SecondaryYAxisAutoscale" : true,
-        "XAxisFormat" : "yyyy-MM-dd HH:mm:ss.SSS",
-        "ChartIndicatorStyle" : "DefaultChartIndicatorStyle",
-        "ShowXAxis" : true,
-        "ShowXAxisTicks" : true,
-        "AllowXAxisZoom" : true,
-        "Area" : "UI",
-        "LegendLocation" : "right",
-        "SeriesStyle11" : "DefaultChartStyle11",
-        "SeriesStyle12" : "DefaultChartStyle12",
-        "SeriesStyle10" : "DefaultChartStyle10",
-        "SeriesStyle15" : "DefaultChartStyle15",
-        "SeriesStyle16" : "DefaultChartStyle16",
-        "SeriesStyle13" : "DefaultChartStyle13",
-        "SeriesStyle14" : "DefaultChartStyle14",
-        "YAxisZeroscale" : false,
-        "GridStyle" : "DefaultChartGridStyle",
-        "AxisMaximum10" : 100,
-        "AxisMaximum11" : 100,
-        "YAxisFormat" : "0000.0",
-        "ShowYAxisGrid" : true,
-        "ChartOrientation" : "vertical",
-        "DataField1" : "temperature",
-        "NumberOfSeries" : 8,
-        "SeriesStyle3" : "DefaultChartStyle3",
-        "SeriesStyle2" : "DefaultChartStyle2",
-        "SeriesStyle5" : "DefaultChartStyle5",
-        "SeriesStyle4" : "DefaultChartStyle4",
-        "SeriesStyle7" : "DefaultChartStyle7",
-        "SeriesStyle6" : "DefaultChartStyle6",
-        "SeriesStyle9" : "DefaultChartStyle9",
-        "SeriesStyle8" : "DefaultChartStyle8",
-        "ShowDataLoading" : true,
-        "ShowYAxis" : true,
-        "YAxisIntervals" : 10,
-        "SeriesStyle1" : "DefaultChartStyle1",
-        "SecondaryYAxisFormat" : "0000.0",
-        "__TypeDisplayName" : "Time Series Chart",
-        "SeriesMarkerType1" : "chart",
-        "YAxisMinimum" : 0,
-        "SeriesMarkerType2" : "chart",
-        "XAxisIntervals" : 10,
-        "Top" : 35,
-        "SeriesType9" : "chart",
-        "SeriesType8" : "chart",
-        "SeriesMarkerType9" : "chart",
-        "SeriesType7" : "chart",
-        "SeriesType6" : "chart",
-        "SeriesMarkerType7" : "chart",
-        "SeriesType5" : "chart",
-        "SeriesMarkerType8" : "chart",
-        "Id" : "timeserieschart-2",
-        "SeriesType4" : "chart",
-        "SeriesMarkerType5" : "chart",
-        "SeriesType3" : "chart",
-        "SeriesMarkerType6" : "chart",
-        "ShowLegend" : true,
-        "SeriesType2" : "chart",
-        "SeriesMarkerType3" : "chart",
-        "SeriesType1" : "chart",
-        "SeriesMarkerType4" : "chart",
-        "SeriesType10" : "chart",
-        "SeriesType11" : "chart",
-        "SeriesType12" : "chart",
-        "SeriesType13" : "chart",
-        "SeriesType14" : "chart",
-        "SeriesType15" : "chart",
-        "SeriesType16" : "chart",
-        "LegendWidth" : 0,
-        "AxisZeroscale11" : false,
-        "Visible" : true,
-        "AxisZeroscale10" : false,
-        "AxisZeroscale13" : false,
-        "AxisZeroscale12" : false,
-        "AxisZeroscale15" : false,
-        "Width" : 640,
-        "AxisZeroscale14" : false,
-        "AxisZeroscale16" : false,
-        "XAxisSmoothScaling" : true,
-        "AxisZeroscale9" : false,
-        "SeriesMarkerType16" : "chart",
-        "ResponsiveLayout" : false,
-        "AxisZeroscale6" : false,
-        "AxisZeroscale5" : false,
-        "AxisZeroscale8" : false,
-        "AxisZeroscale7" : false,
-        "AxisZeroscale2" : false,
-        "AxisZeroscale1" : false,
-        "AxisZeroscale4" : false,
-        "AxisZeroscale3" : false,
-        "AxisFormat11" : "0000.0",
-        "AxisFormat12" : "0000.0",
-        "Type" : "timeserieschart",
-        "AxisFormat13" : "0000.0",
-        "LegendOrientation" : "vertical",
-        "AxisFormat14" : "0000.0",
-        "AxisFormat15" : "0000.0",
-        "AxisFormat16" : "0000.0",
-        "ChartAreaStyle" : "DefaultChartAreaStyle",
-        "SeriesMarkerType15" : "chart",
-        "SeriesMarkerType14" : "chart",
-        "SeriesMarkerType13" : "chart",
-        "SeriesMarkerType12" : "chart",
-        "SeriesMarkerType11" : "chart",
-        "SeriesMarkerType10" : "chart",
-        "AxisFormat10" : "0000.0",
-        "AxisFormat6" : "0000.0",
-        "AxisFormat7" : "0000.0",
-        "AxisFormat4" : "0000.0",
-        "AxisFormat5" : "0000.0",
-        "AxisFormat2" : "0000.0",
-        "AxisFormat3" : "0000.0",
-        "AxisFormat1" : "0000.0",
-        "ChartTitle" : "",
-        "EnableHover" : true,
-        "ChartType" : "line",
-        "AxisFormat8" : "0000.0",
-        "AxisFormat9" : "0000.0",
-        "ShowYAxisTicks" : true,
-        "UseSecondaryAxis7" : false,
-        "Smoothing" : false,
-        "UseSecondaryAxis6" : false,
-        "UseSecondaryAxis9" : false,
-        "ShowXAxisGrid" : true,
-        "UseSecondaryAxis8" : false,
-        "UseSecondaryAxis3" : false,
-        "AxisAutoscale13" : true,
-        "UseSecondaryAxis2" : false,
-        "AxisAutoscale14" : true,
-        "UseSecondaryAxis5" : false,
-        "AxisAutoscale15" : true,
-        "UseSecondaryAxis4" : false,
-        "AxisAutoscale16" : true,
-        "AxisAutoscale10" : true,
-        "UseSecondaryAxis1" : false,
-        "AxisAutoscale11" : true,
-        "AxisAutoscale12" : true,
-        "AxisMinimum1" : 0,
-        "AxisAutoscale4" : true,
-        "AxisMinimum2" : 0,
-        "AxisAutoscale5" : true,
-        "AxisAutoscale2" : true,
-        "AxisMinimum3" : 0,
-        "AxisAutoscale3" : true,
-        "AxisMinimum4" : 0,
-        "AxisAutoscale8" : true,
-        "AxisAutoscale9" : true,
-        "AxisAutoscale6" : true,
-        "AxisAutoscale7" : true,
-        "AxisMinimum9" : 0,
-        "SingleDataSource" : true,
-        "ChartTitleStyle" : "DefaultChartTitleStyle",
-        "AxisMinimum5" : 0,
-        "AxisAutoscale1" : true,
-        "AxisMinimum6" : 0,
-        "ShowXAxisLabels" : true,
-        "AxisMinimum7" : 0,
-        "ChartLegendStyle" : "DefaultChartLegendStyle",
-        "AxisMinimum8" : 0,
-        "YAxisMode" : "single",
-        "DisplayName" : "timeserieschart-2",
-        "Height" : 240,
-        "YAxisStyle" : "DefaultChartAxisStyle",
-        "AllowYAxisZoom" : true,
-        "SecondaryYAxisMinimum" : 0,
-        "UseSecondaryAxis13" : false,
-        "UseSecondaryAxis14" : false,
-        "UseSecondaryAxis15" : false,
-        "UseSecondaryAxis16" : false,
-        "MarkerType" : "circle",
-        "UseSecondaryAxis10" : false,
-        "UseSecondaryAxis11" : false,
-        "UseSecondaryAxis12" : false,
-        "XAxisAutoscale" : true
+        "Type" : "layout",
+        "LeftSidebarWidth" : 100,
+        "Header" : false,
+        "Top" : 105,
+        "IsPrintLayout" : false,
+        "Footer" : false,
+        "Id" : "layout-2"
       }
     } ],
     "Properties" : {
@@ -274,7 +154,7 @@
       "BGImageRepeat" : "no-repeat",
       "ShowDataLoading" : true,
       "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
-      "id_index" : 2,
+      "id_index" : 5,
       "supportsAutoResize" : true,
       "Visible" : true,
       "DisplayName" : "Mashup",
@@ -286,7 +166,7 @@
       "Rows" : 0,
       "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
       "TitleBarStyle" : "DefaultTitleBarStyle",
-      "ResponsiveLayout" : false,
+      "ResponsiveLayout" : true,
       "Title" : "",
       "Columns" : 0,
       "Z-index" : 10,
@@ -305,11 +185,11 @@
   },
   "Events" : [ {
     "EventTriggerArea" : "Mashup",
-    "EventHandlerService" : "QueryPropertyHistory",
+    "EventHandlerService" : "GetImplementingThings",
     "EventTriggerSection" : "",
-    "EventHandlerId" : "Things_MyHouse",
+    "EventHandlerId" : "ThingTemplates_SmartOfficeTemplate",
     "EventTriggerEvent" : "Loaded",
-    "Id" : "f8f237db-dbbf-4585-a1e9-41dfdb0e7881",
+    "Id" : "5a4b1a2c-05ca-4ab4-9a46-95057d49ecc4",
     "EventTriggerId" : "mashup-root",
     "EventHandlerArea" : "Data"
   } ],
@@ -318,26 +198,9 @@
     "SourceArea" : "Data",
     "TargetArea" : "UI",
     "TargetSection" : "",
-    "SourceId" : "QueryPropertyHistory",
-    "Id" : "a062ff36-cfa0-4551-bfd3-04886e1cfe92",
-    "SourceSection" : "Things_MyHouse",
-    "SourceDetails" : "AllData",
-    "PropertyMaps" : [ {
-      "SourcePropertyType" : "Field",
-      "TargetProperty" : "Data",
-      "TargetPropertyType" : "property",
-      "SourcePropertyBaseType" : "NUMBER",
-      "TargetPropertyBaseType" : "NUMBER",
-      "SourceProperty" : "watts"
-    } ],
-    "TargetId" : "gauge-1"
-  }, {
-    "SourceArea" : "Data",
-    "TargetArea" : "UI",
-    "TargetSection" : "",
-    "SourceId" : "QueryPropertyHistory",
-    "Id" : "5dc7e463-f9df-4c27-baca-c031ebdfbe99",
-    "SourceSection" : "Things_MyHouse",
+    "SourceId" : "GetImplementingThings",
+    "Id" : "ea119000-c835-4781-a095-ba0c6ad3dd6f",
+    "SourceSection" : "ThingTemplates_SmartOfficeTemplate",
     "SourceDetails" : "AllData",
     "PropertyMaps" : [ {
       "SourcePropertyType" : "InfoTable",
@@ -347,9 +210,24 @@
       "TargetPropertyBaseType" : "INFOTABLE",
       "SourceProperty" : ""
     } ],
-    "TargetId" : "timeserieschart-2"
+    "TargetId" : "dhxlist-5"
   } ],
   "Data" : {
+    "ThingTemplates_SmartOfficeTemplate" : {
+      "EntityType" : "ThingTemplates",
+      "Services" : [ {
+        "Target" : "GetImplementingThings",
+        "Parameters" : { },
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "RefreshInterval" : 0,
+        "Id" : "bed90dfc-c498-4b58-959b-41b26db6be91",
+        "Name" : "GetImplementingThings"
+      } ],
+      "EntityName" : "SmartOfficeTemplate",
+      "Id" : "51de4266-7756-4aa2-9424-4126b0030c41",
+      "DataName" : "ThingTemplates_SmartOfficeTemplate"
+    },
     "UserExtensions" : {
       "EntityType" : "UserExtensions",
       "Services" : [ {
@@ -364,21 +242,6 @@
       "EntityName" : "",
       "Id" : "UserExtensions",
       "DataName" : "UserExtensions"
-    },
-    "Things_MyHouse" : {
-      "EntityType" : "Things",
-      "Services" : [ {
-        "Target" : "QueryPropertyHistory",
-        "Parameters" : { },
-        "APIMethod" : "post",
-        "Characteristic" : "Services",
-        "RefreshInterval" : 0,
-        "Id" : "0991ffbc-ce91-40f2-8528-d7ba0248e2af",
-        "Name" : "QueryPropertyHistory"
-      } ],
-      "EntityName" : "MyHouse",
-      "Id" : "f0eeab55-7c9b-44d3-bc59-98baf040b629",
-      "DataName" : "Things_MyHouse"
     },
     "Session" : {
       "EntityType" : "Session",
@@ -397,51 +260,17 @@
     }
   },
   "DesignTimePermissions" : { }
-}]]></mashupContent><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;documentation : updated&#10;" timestamp="2017-11-18T19:12:04.064+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-18T19:15:05.049+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-18T19:15:10.235+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-11-18T19:21:07.675+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2017-11-18T19:21:22.847+01:00" user="Administrator"/></ConfigurationChanges></Mashup></Mashups><ScriptFunctionLibraries/><Projects/><Users/><DirectoryServices/><Widgets/><MediaEntities/><Groups/><PersistenceProviders/><NotificationContents/><ModelTags/><LocalizationTables/><Dashboards/><DataAnalysisDefinitions/><DataShapes/><Things><Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-11-18T19:21:33.851+01:00" name="Foundation_Quickstart_Services" projectName="" published="false" tags="FoundationQuickstart:Home Application" thingTemplate="GenericThing" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="BOOLEAN" category="" description="" isLocalOnly="false" name="flag" ordinal="1"/></PropertyDefinitions><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions><Subscription enabled="true" eventName="Timer" source="ThirtySecondTimer" sourceProperty=""><ServiceImplementation description="" handlerName="Script" name="Type.Thing:Entity.ThirtySecondTimer:Event.Timer"><ConfigurationTables><ConfigurationTable description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[// Populate properties for the house the first time the service runs only.
-if (Things["MyHouse"].houseID == "") {
-	Things["MyHouse"].houseID = "12345";
-	Things["MyHouse"].address = "140 Kendrick Street";
-	Things["MyHouse"].city = "Needham";
-	Things["MyHouse"].state = "MA";
-	Things["MyHouse"].zip = "02494";
-	Things["MyHouse"].house_lat_long = "42.296375,-71.214556,0";
-	Things["MyHouse"].lightID = "11111";
-	Things["MyHouse"].thermostatID = "99999";
-	Things["MyHouse"].temperature = 70;
-	Things["Foundation_Quickstart_Services"].flag = "true";
-}
-
-// Light Properties //
-
-// Every 30 seconds change the light status to ON (100 watts) or OFF (0 watts)
-if (Things["MyHouse"].watts == "0") {
-	Things["MyHouse"].watts = 100;
-} else if (Things["MyHouse"].watts == "100") {
-	Things["MyHouse"].watts = 0;
-} else {
-	Things["MyHouse"].watts = 0;
-}
-
-// Thermostat Properties //
-
-// Temporary fix. When the temperature is supposed to be set to 69.6 is set to 69.60000000000000001.
-var temp = Things["MyHouse"].temperature;
-temp = Things["MyHouse"].temperature.toFixed(1);
-temp = parseFloat(temp);
-
-// Increase temperature a small amount until it reachs 70. Once it exceeds 70, turn AC ON, and then decrement at a faster pace back to 68.
-if(temp < 70 && temp > 68 && me.flag == true) {
-	Things["MyHouse"].temperature = temp + 0.2;
-    //logger.error("Increasing temperature: " + Things["MyHouse"].temperature);
-} else if (temp < 70 && temp > 68 && me.flag == false)  {
-    Things["MyHouse"].temperature = temp - 0.5;
-    //logger.error("Decreasing temperature: " + Things["MyHouse"].temperature);
-} else if (temp == 70) {
- 	Things["MyHouse"].temperature = temp - 0.5;
-    me.flag = false;
-    //logger.error("Temperature reached 70, decreasing: " + Things["MyHouse"].temperature);
-} else if (temp == 68) {
- 	Things["MyHouse"].temperature = temp + 0.2;
-    me.flag = true;
-    //logger.error("Temperature reached 68, increasing: " + Things["MyHouse"].temperature);
-}]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation></Subscription></Subscriptions></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations><AlertDefinitions name="flag"/></AlertConfigurations><ImplementedShapes/><ThingProperties><flag><Value>true</Value><Timestamp>2017-11-18T19:20:17.745+01:00</Timestamp><Quality>GOOD</Quality></flag></ThingProperties><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-11-18T19:04:17.684+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="documentation : updated&#10;" timestamp="2017-11-18T19:21:33.849+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing description="" documentationContent="" effectiveThingPackage="ValueStreamThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-11-18T19:02:14.278+01:00" name="Foundation_Quickstart_ValueStream" projectName="" published="false" tags="FoundationQuickstart:Home Application" thingTemplate="ValueStream" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables><ConfigurationTable description="Data Thing Configuration" isMultiRow="false" name="DataThingSettings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="Persistence Provider Name" name="persistenceProvider" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><persistenceProvider><![CDATA[ThingworxPersistenceProvider]]></persistenceProvider></Row></Rows></ConfigurationTable><ConfigurationTable description="Configurable options to tune Value Stream performance" isMultiRow="false" name="PersistenceProviderCustomSettings" ordinal="2"><DataShape><FieldDefinitions><FieldDefinition aspect.friendlyName="Persistence Provider Custom Settings Table" baseType="INFOTABLE" description="Persistence Provider Custom Config Table" name="customConfigTable" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><customConfigTable><infoTable><DataShape><FieldDefinitions/></DataShape><Rows/></infoTable></customConfigTable></Row></Rows></ConfigurationTable></ConfigurationTables><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : tags : updated, name : updated&#10;configuration : persistenceProvider : updated&#10;" timestamp="2017-11-18T19:02:14.278+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-11-18T19:01:02.372+01:00" name="MyHouse" projectName="" published="false" tags="FoundationQuickstart:Home Application" thingTemplate="HouseGateway" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties><zip><Value><![CDATA[02494]]></Value><Timestamp>2017-11-18T19:04:17.749+01:00</Timestamp><Quality>GOOD</Quality></zip><houseID><Value><![CDATA[12345]]></Value><Timestamp>2017-11-18T19:04:17.748+01:00</Timestamp><Quality>GOOD</Quality></houseID><address><Value><![CDATA[140 Kendrick Street]]></Value><Timestamp>2017-11-18T19:04:17.749+01:00</Timestamp><Quality>GOOD</Quality></address><watts><Value>100.0</Value><Timestamp>2017-11-18T19:21:17.743+01:00</Timestamp><Quality>GOOD</Quality></watts><city><Value><![CDATA[Needham]]></Value><Timestamp>2017-11-18T19:04:17.749+01:00</Timestamp><Quality>GOOD</Quality></city><temperature><Value>68.60000000000001</Value><Timestamp>2017-11-18T19:21:17.744+01:00</Timestamp><Quality>GOOD</Quality></temperature><state><Value><![CDATA[MA]]></Value><Timestamp>2017-11-18T19:04:17.749+01:00</Timestamp><Quality>GOOD</Quality></state><house_lat_long><Value>42.296375,-71.214556,0.0</Value><Timestamp>2017-11-18T19:04:17.750+01:00</Timestamp><Quality>GOOD</Quality></house_lat_long><lightID><Value><![CDATA[11111]]></Value><Timestamp>2017-11-18T19:04:17.750+01:00</Timestamp><Quality>GOOD</Quality></lightID><thermostatID><Value><![CDATA[99999]]></Value><Timestamp>2017-11-18T19:04:17.750+01:00</Timestamp><Quality>GOOD</Quality></thermostatID></ThingProperties><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated, tags : updated&#10;" timestamp="2017-11-18T19:01:02.372+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;&#10;" effectiveThingPackage="TimerThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-11-18T19:04:17.687+01:00" name="ThirtySecondTimer" projectName="" published="false" tags="FoundationQuickstart:Home Application" thingTemplate="Timer" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables><ConfigurationTable description="General Settings" isMultiRow="false" name="Settings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="Automatically enable timer on startup" name="enabled" ordinal="0"/><FieldDefinition baseType="USERNAME" description="User context in which to run event handlers" name="runAsUser" ordinal="0"/><FieldDefinition aspect.defaultValue="60000.0" baseType="NUMBER" description="Update rate" name="updateRate" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><runAsUser/><updateRate>30000.0</updateRate><enabled>true</enabled></Row></Rows></ConfigurationTable></ConfigurationTables><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2017-11-18T19:04:17.687+01:00" user="Administrator"/></ConfigurationChanges></Thing></Things><Logs/><Authenticators/><ThingPackages/><NotificationDefinitions/><ApplicationKeys/><StateDefinitions/><ThingTemplates><ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2017-11-18T19:02:37.486+01:00" name="HouseGateway" projectName="" tags="FoundationQuickstart:Home Application" thingPackage="" valueStream="Foundation_Quickstart_ValueStream"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations><AlertDefinitions name="address"/><AlertDefinitions name="city"/><AlertDefinitions name="house_lat_long"/><AlertDefinitions name="houseID"/><AlertDefinitions name="lightID"/><AlertDefinitions name="state"/><AlertDefinitions name="temperature"/><AlertDefinitions name="thermostatID"/><AlertDefinitions name="watts"/><AlertDefinitions name="zip"/></AlertConfigurations><ThingShape><PropertyDefinitions><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="address" ordinal="2"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="city" ordinal="4"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="LOCATION" category="" description="" isLocalOnly="false" name="house_lat_long" ordinal="6"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="houseID" ordinal="1"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="lightID" ordinal="7"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="state" ordinal="3"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="NUMBER" category="" description="" isLocalOnly="false" name="temperature" ordinal="10"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="thermostatID" ordinal="9"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="NUMBER" category="" description="" isLocalOnly="false" name="watts" ordinal="8"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="zip" ordinal="5"/></PropertyDefinitions><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><ImplementedShapes/><SharedConfigurationTables/><InstanceDesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></InstanceDesignTimePermissions><InstanceRunTimePermissions/><InstanceVisibilityPermissions><Visibility/></InstanceVisibilityPermissions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : tags : updated, name : updated, baseThingTemplate : updated&#10;documentation : updated&#10;" timestamp="2017-11-18T18:56:17.754+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="properties : houseID : Added, address : Added, city : Added, state : Added, zip : Added, house_lat_long : Added, lightID : Added, watts : Added, thermostatID : Added, temperature : Added&#10;" timestamp="2017-11-18T18:59:44.244+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : valueStream : updated&#10;" timestamp="2017-11-18T19:02:37.486+01:00" user="Administrator"/></ConfigurationChanges></ThingTemplate></ThingTemplates><ExtensionPackages/><Organizations/><Menus/><Resources/><DataTags/><ThingShapes/><Subsystems/></Entities>
+}]]></mashupContent><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;documentation : updated&#10;" timestamp="2017-12-12T09:28:18.909+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-12T10:00:49.242+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-12-12T10:00:50.518+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:55:46.204+01:00" user="Administrator"/></ConfigurationChanges></Mashup></Mashups><ScriptFunctionLibraries/><Projects/><Users/><DirectoryServices/><Widgets/><MediaEntities/><Groups/><PersistenceProviders/><NotificationContents/><ModelTags/><LocalizationTables/><Dashboards/><DataAnalysisDefinitions/><DataShapes><DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2018-01-03T21:52:58.227+01:00" name="MachineProperties" projectName="" tags="SmartTag:Tag1"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><FieldDefinitions><FieldDefinition baseType="BOOLEAN" description="" name="bool" ordinal="3"/><FieldDefinition baseType="NUMBER" description="" name="nr" ordinal="1"/><FieldDefinition baseType="TEXT" description="" name="text" ordinal="2"/></FieldDefinitions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;fields : nr : Added, text : Added, bool : Added&#10;" timestamp="2018-01-03T21:52:58.226+01:00" user="Administrator"/></ConfigurationChanges></DataShape></DataShapes><Things><Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-03T21:54:40.623+01:00" name="SmartOfficeCreator" projectName="" published="false" tags="SmartTag:Tag1" thingTemplate="SmartOfficeTemplate" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions><ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="CreateRoom"><ResultType baseType="NOTHING" description="" name="result" ordinal="0"/><ParameterDefinitions><FieldDefinition baseType="STRING" description="" name="RoomName" ordinal="1"/></ParameterDefinitions></ServiceDefinition></ServiceDefinitions><EventDefinitions/><ServiceMappings/><ServiceImplementations><ServiceImplementation description="" handlerName="Script" name="CreateRoom"><ConfigurationTables><ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[if(Things[RoomName] == undefined){
+    var params = {
+        name: RoomName,
+        description: undefined,
+        thingTemplateName: "SmartOfficeTemplate",
+        tags: undefined
+    };
+    
+    Resources["EntityServices"].CreateThing(params);
+    Things[RoomName].EnableThing();
+    Things[RoomName].RestartThing();
+}]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation></ServiceImplementations><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated&#10;" timestamp="2017-12-12T08:37:00.072+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="services :  : Input parameter RoomName Added, Inputs updated, CreateRoom : Service Added, Code Updated&#10;" timestamp="2017-12-12T08:42:05.410+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="services : CreateRoom : Code Updated&#10;" timestamp="2017-12-12T08:44:45.714+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:54:40.622+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing description="" documentationContent="" effectiveThingPackage="RemoteThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-03T21:54:53.230+01:00" name="Thing1" projectName="" published="false" tags="SmartTag:Tag1" thingTemplate="Template" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties><lastConnection><Value>1970-01-01T01:00:00.000+01:00</Value><Timestamp>2018-01-03T21:54:53.255+01:00</Timestamp><Quality>GOOD</Quality></lastConnection></ThingProperties><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated&#10;" timestamp="2017-11-18T13:05:59.875+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:54:53.230+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing aspect.isSystemObject="false" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-03T21:54:31.605+01:00" name="test" projectName="" published="false" tags="SmartTag:Tag1" thingTemplate="SmartOfficeTemplate" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="Thing test created programatically" timestamp="2017-12-12T08:44:50.422+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:54:31.465+01:00" user="Administrator"/></ConfigurationChanges></Thing><Thing description="" documentationContent="" effectiveThingPackage="RemoteThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2018-01-03T21:55:00.560+01:00" name="Thing2" projectName="" published="false" tags="SmartTag:Tag1" thingTemplate="Template" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties><lastConnection><Value>1970-01-01T01:00:00.000+01:00</Value><Timestamp>2018-01-03T21:55:00.567+01:00</Timestamp><Quality>GOOD</Quality></lastConnection></ThingProperties><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated&#10;" timestamp="2017-11-18T13:06:09.649+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:55:00.559+01:00" user="Administrator"/></ConfigurationChanges></Thing></Things><Logs/><Authenticators/><ThingPackages/><NotificationDefinitions/><ApplicationKeys/><StateDefinitions/><ThingTemplates><ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2018-01-03T21:55:14.458+01:00" name="SmartOfficeTemplate" projectName="" tags="SmartTag:Tag1" thingPackage="" valueStream="SmartOfficeVS"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations><AlertDefinitions name="Temperature"/></AlertConfigurations><ThingShape><PropertyDefinitions><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Temperature" ordinal="1"/></PropertyDefinitions><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><ImplementedShapes/><SharedConfigurationTables/><InstanceDesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></InstanceDesignTimePermissions><InstanceRunTimePermissions/><InstanceVisibilityPermissions><Visibility/></InstanceVisibilityPermissions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, baseThingTemplate : updated&#10;documentation : updated&#10;" timestamp="2017-12-12T08:36:39.373+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : valueStream : updated&#10;properties : Temperature : Added&#10;" timestamp="2017-12-12T09:16:27.124+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2018-01-03T21:55:14.457+01:00" user="Administrator"/></ConfigurationChanges></ThingTemplate><ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2018-01-03T21:53:01.490+01:00" name="Machine" projectName="" tags="SmartTag:Tag1" thingPackage="" valueStream=""><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTables/><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations><AlertDefinitions name="Property"/><AlertDefinitions name="val1"/><AlertDefinitions name="val2"/><AlertDefinitions name="val3"/></AlertConfigurations><ThingShape><PropertyDefinitions><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="Property" ordinal="4"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeThreshold="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="NUMBER" category="" description="" isLocalOnly="false" name="val1" ordinal="1"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="TEXT" category="" description="" isLocalOnly="false" name="val2" ordinal="2"/><PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="BOOLEAN" category="" description="" isLocalOnly="false" name="val3" ordinal="3"/></PropertyDefinitions><ServiceDefinitions><ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="Service"><ResultType baseType="NOTHING" description="" name="result" ordinal="0"/><ParameterDefinitions><FieldDefinition baseType="BOOLEAN" description="" name="bool" ordinal="2"/><FieldDefinition baseType="TEXT" description="" name="text" ordinal="1"/><FieldDefinition baseType="NUMBER" description="" name="val" ordinal="3"/></ParameterDefinitions></ServiceDefinition></ServiceDefinitions><EventDefinitions/><ServiceMappings/><ServiceImplementations><ServiceImplementation description="" handlerName="Script" name="Service"><ConfigurationTables><ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[if(text != undefined){ me.text = text; } 
+if(number != undefined){ me.val1 = number; } 
+if(bool != undefined){ me.bool = bool; }]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation></ServiceImplementations><Subscriptions/></ThingShape><ImplementedShapes/><SharedConfigurationTables/><InstanceDesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></InstanceDesignTimePermissions><InstanceRunTimePermissions/><InstanceVisibilityPermissions><Visibility/></InstanceVisibilityPermissions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, baseThingTemplate : updated, tags : updated&#10;documentation : updated&#10;" timestamp="2018-01-03T21:45:26.801+01:00" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="properties : val1 : Added, val2 : Added, Updated, val3 : Added, Property : Added, Val1 : Added, removed&#10;services :  : Input parameter text Added, Input parameter bool Added, Input parameter val Added, Service : Inputs updated, Code Updated, Service Added&#10;" timestamp="2018-01-03T21:53:01.490+01:00" user="Administrator"/></ConfigurationChanges></ThingTemplate></ThingTemplates><ExtensionPackages/><Organizations/><Menus/><Resources/><DataTags/><ThingShapes/><Subsystems/></Entities>
