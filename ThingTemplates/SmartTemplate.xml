@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <ThingTemplates>
-        <ThingTemplate baseThingTemplate="RemoteThing" description="" documentationContent="" effectiveThingPackage="RemoteThing" homeMashup="" lastModifiedDate="2018-01-21T17:29:49.106+01:00" name="SmartTemplate" projectName="" tags="SmartTag:Tag1" thingPackage="" valueStream="SmartOfficeVS">
+        <ThingTemplate baseThingTemplate="RemoteThing" description="" documentationContent="" effectiveThingPackage="RemoteThing" homeMashup="" lastModifiedDate="2018-01-21T20:47:31.882+01:00" name="SmartTemplate" projectName="" tags="SmartTag:Tag1" thingPackage="" valueStream="SmartOfficeVS">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -39,7 +39,7 @@
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.defaultValue="0" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="airconditioning" ordinal="5"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.defaultValue="wow" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="busy" ordinal="4"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.defaultValue="0" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="heating" ordinal="3"/>
-                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.defaultValue="0" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="humidity" ordinal="2"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="NUMBER" category="" description="" isLocalOnly="false" name="humidity" ordinal="2"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.dataShape="SmartDataShape" aspect.isLogged="false" aspect.isPersistent="true" aspect.isReadOnly="false" baseType="INFOTABLE" category="" description="" isLocalOnly="false" name="Table" ordinal="6"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="ALWAYS" aspect.defaultValue="0.0" aspect.isFolded="false" aspect.isLogged="true" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="NUMBER" category="" description="" isLocalOnly="false" name="temperature" ordinal="1"/>
                 </PropertyDefinitions>
@@ -127,6 +127,7 @@ newEntry.Time = undefined; // SCHEDULE
                 <ConfigurationChange changeAction="MODIFY" changeReason="subscriptions : New subscription : Source updated, SmartTimer:Timer : New subscription, Subscription Added&#10;" timestamp="2018-01-21T17:18:43.441+01:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="services :  : Code Updated, CreateSmartTable : Service Added&#10;" timestamp="2018-01-21T17:20:57.483+01:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2018-01-21T17:29:49.106+01:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="properties : humidity : Updated&#10;" timestamp="2018-01-21T20:47:31.882+01:00" user="Administrator"/>
             </ConfigurationChanges>
         </ThingTemplate>
     </ThingTemplates>
